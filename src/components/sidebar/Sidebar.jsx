@@ -4,11 +4,11 @@ import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailO
 
 const Sidebar = () => {
   return (
-    <div className="sidebar sticky top-14 bg-slate-50">
+    <div className="sidebar sticky top-14 bg-slate-50 overflow-y-auto">
       <div className="p-5 text-[#555]">
 
         <div className="mb-2.5">
-          <h3 className="text-base text-slate-500 font-semibold">Dashboardd</h3>
+          <h3 className="text-base text-slate-500 font-semibold">Dashboard</h3>
           <ul className="p-[5px]">
             {/* <Link to="/" className="link"> */}
               <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">

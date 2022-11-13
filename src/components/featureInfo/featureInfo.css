@@ -1,0 +1,11 @@
+.arrow_down, .arrow_up {
+    font-size: 16px !important;
+}
+
+.arrow_down {
+    color: rgb(253, 91, 91);
+}
+
+.arrow_up {
+    color: rgb(90, 199, 90);
+}
