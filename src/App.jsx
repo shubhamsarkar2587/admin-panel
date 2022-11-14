@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="">
       <Topbar />
-      <div className="flex justify-between mt-2">
+      <div className="flex justify-between mt-2 overflow-x-hidden">
         <div className="w-1/4 xl:w-1/5">
           <Sidebar />
         </div>

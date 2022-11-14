@@ -1,0 +1,15 @@
+.widget_sm::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.widget_sm {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.display_icon {
+    font-size: 18px !important;
+}
+
