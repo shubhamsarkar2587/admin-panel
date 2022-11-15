@@ -1,21 +1,21 @@
 import "./sidebar.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailOutline, PermIdentity, Report, Storefront, Timeline, TrendingUp, WorkOutline } from "@mui/icons-material";
 
 const Sidebar = () => {
   return (
-    <div className="sidebar fixed w-1/4 xl:w-1/5 h-full bg-slate-50 overflow-y-auto">
+    <div className="sidebar fixed w-1/4 xl:w-1/5 bg-slate-50 overflow-y-auto">
       <div className="p-5 text-[#555]">
 
         <div className="mb-2.5">
           <h3 className="text-base text-slate-500 font-semibold">Dashboard</h3>
           <ul className="p-[5px]">
-            {/* <Link to="/" className="link"> */}
+            <Link to="/" className="link">
               <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
                 <LineStyle className="mr-[5px]" />
                 Home
               </li>
-            {/* </Link> */}
+            </Link>
             <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
               <Timeline className="mr-[5px]" />
               Analytics
@@ -30,12 +30,12 @@ const Sidebar = () => {
         <div className="mb-2.5">
           <h3 className="text-base text-slate-500 font-semibold">Quick Menu</h3>
           <ul className="p-[5px]">
-            {/* <Link to="/users" className="link"> */}
+            <Link to="/users" className="link">
               <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
                 <PermIdentity />
                 Users
               </li>
-            {/* </Link> */}
+            </Link>
             {/* <Link to="/products" className="link"> */}
               <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
                 <Storefront className="mr-[5px]" />

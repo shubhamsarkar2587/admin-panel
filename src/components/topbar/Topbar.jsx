@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Language, NotificationsNone, Settings } from '@mui/icons-material';
 import { svgAssets } from '../../assets/asset';
 
@@ -6,7 +7,9 @@ const Topbar = () => {
     <div className="topbar top-0 w-full h-14 bg-white sticky z-50">
       <div className="h-full px-5 flex items-center justify-between">
         <div className="leftSide">
-          <span className="font-bold text-3xl text-blue-800">admin panel</span>
+          <Link to="/">
+            <span className="font-bold text-3xl text-blue-800 cursor-pointer">admin panel</span>
+          </Link>
         </div>
         <div className="rightSide flex items-center justify-center">
           <div className="relative mr-2.5 text-gray-500">

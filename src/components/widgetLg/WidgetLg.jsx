@@ -18,6 +18,43 @@ const WidgetLg = () => {
             <th className="mr-2.5">Amount</th>
             <th className="mr-2.5">Status</th>
           </tr>
+
+          <tr className="text-left">
+            <td className="flex items-center mr-2.5">
+              <img className="rounded-full h-10 w-10 object-cover mr-2.5" src={pngAssets.userImage} alt="" />
+              <span>Susan</span>
+            </td>
+            <td className="center mr-2.5">13 Jan 2022</td>
+            <td className="mr-2.5">$343</td>
+            <td className="mr-2.5">
+              <Button type="approved" />
+            </td>
+          </tr>
+
+          <tr className="text-left">
+            <td className="flex items-center mr-2.5">
+              <img className="rounded-full h-10 w-10 object-cover mr-2.5" src={pngAssets.userImage} alt="" />
+              <span>Susan</span>
+            </td>
+            <td className="center mr-2.5">13 Jan 2022</td>
+            <td className="mr-2.5">$343</td>
+            <td className="mr-2.5">
+              <Button type="approved" />
+            </td>
+          </tr>
+
+          <tr className="text-left">
+            <td className="flex items-center mr-2.5">
+              <img className="rounded-full h-10 w-10 object-cover mr-2.5" src={pngAssets.userImage} alt="" />
+              <span>Susan</span>
+            </td>
+            <td className="center mr-2.5">13 Jan 2022</td>
+            <td className="mr-2.5">$343</td>
+            <td className="mr-2.5">
+              <Button type="approved" />
+            </td>
+          </tr>
+
           <tr className="text-left">
             <td className="flex items-center mr-2.5">
               <img className="rounded-full h-10 w-10 object-cover mr-2.5" src={pngAssets.userImage} alt="" />

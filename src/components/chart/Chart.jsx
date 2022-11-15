@@ -9,7 +9,6 @@ import {
 } from "recharts";
 
 const Chart = ({ title, data, dataKey, grid }) => {
-  // console.log(userData, 'dfdfdf')
   return (
     <div className="chart m-5 p-5">
       <h3>{title || "Analytics"}</h3>
