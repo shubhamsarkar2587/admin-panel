@@ -8,7 +8,7 @@ const WidgetLg = () => {
   }
 
   return (
-    <div className="widget_lg p-5 w-full overflow-x-auto">
+    <div className="widget_lg global_shadow p-5 w-full overflow-x-auto">
       <span className="font-semibold text-xl">Latest transaction</span>
       <table className="w-full my-5">
         <tbody>

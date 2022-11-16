@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import { Link } from "react-router-dom";
 import { DeleteOutline } from '@mui/icons-material';
-import { userTableData } from "../../utils/dummyData";
+import { productTableData } from "../../utils/dummyData";
 import DataTable from "../../components/dataTable/DataTable";
 
-const UserList = () => {
-  const [userData, setUserData] = useState(userTableData);
 
-  const handleUserDelete = ({ id }) => {
-    const filteredUserData = userData.filter(e => e.id !== id)
-    setUserData(filteredUserData);
+const ProductList = () => {
+  const [productData, setProductData] = useState(productTableData);
+
+  const handleProductDelete = ({ id }) => {
+    const filteredProductData = productData.filter(e => e.id !== id)
+    setProductData(filteredProductData);
   };
 
   const columns = [
@@ -19,19 +20,19 @@ const UserList = () => {
       width: 70 
     },
     { 
-      field: 'username',
-      headerName: 'User',
+      field: 'product',
+      headerName: 'Product',
       width: 180,
       renderCell: (params) => (
         <div className="flex items-center">
-          <img className="rounded-full h-10 w-10 object-cover mr-2.5" src={params?.row?.avatar || ""} alt="" />
-          <span>{params.row.username}</span>
+          <img className="rounded-full h-10 w-10 object-cover mr-2.5" src={params?.row?.image || ""} alt="" />
+          <span>{params.row.name}</span>
         </div>
       )
     },
     {
-      field: 'email',
-      headerName: 'Email',
+      field: 'stock',
+      headerName: 'Stock',
       width: 180
     },
     {
@@ -40,8 +41,8 @@ const UserList = () => {
       width: 100,
     },
     {
-      field: 'transaction',
-      headerName: 'Transaction',
+      field: 'price',
+      headerName: 'Price',
       width: 150,
     },
     {
@@ -50,7 +51,7 @@ const UserList = () => {
       width: 150,
       renderCell: (params) => (
         <>
-          <Link to={`/user/${params.row.id}`}>
+          <Link to={`/product/${params.row.id}`}>
             <button
               className="cursor-pointer rounded-xl bg-[#3bb077] text-white px-2.5 py-1 mr-4"
             >
@@ -60,7 +61,7 @@ const UserList = () => {
           <DeleteOutline
             className="delete_btn cursor-pointer"
             onClick={() => {
-              handleUserDelete({ id: params.row.id })
+              handleProductDelete({ id: params.row.id })
             }}
           />
         </>
@@ -70,9 +71,9 @@ const UserList = () => {
 
   return (
     <div className="">
-      <DataTable columns={columns} rows={userData}/>
+      <DataTable columns={columns} rows={productData}/>
     </div>
-  )
-}
+  );
+};
 
-export default UserList;
+export default ProductList;

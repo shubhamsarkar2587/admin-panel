@@ -14,7 +14,7 @@ const User = () => {
       </div>
 
       <div className="flex">
-        <div className="userShow mr-5 p-5">
+        <div className="userShow global_shadow mr-5 p-5">
           <div className="flex items-center">
             <img className="rounded-full h-10 w-10 object-cover mr-2.5" alt="" src={pngAssets.userImage2}></img>
             <div className="flex flex-col">
@@ -49,30 +49,30 @@ const User = () => {
           </div>
 
         </div>
-        <div className="userUpdate p-5">
+        <div className="userUpdate global_shadow p-5">
           <span className="text-2xl	font-semibold">Edit</span>
           <form className="flex justify-between mt-2.5">
 
             <div className="">
               <div className="flex flex-col my-2.5">
                 <label className="mb-[5px] text-sm">Username</label>
-                <input className="w-64 border-b-2 focus:outline-none" type="text" placeholder="username"/>
+                <input className="w-64 border-b-2 border-gray-300 focus:outline-none" type="text" placeholder="username"/>
               </div>
               <div className="flex flex-col my-2.5">
                 <label className="mb-[5px] text-sm">Date</label>
-                <input className="w-64 border-b-2 focus:outline-none" type="text" placeholder="12 Sep 2022"/>
+                <input className="w-64 border-b-2 border-gray-300 focus:outline-none" type="text" placeholder="12 Sep 2022"/>
               </div>
               <div className="flex flex-col my-2.5">
                 <label className="mb-[5px] text-sm">Contact No</label>
-                <input className="w-64 border-b-2 focus:outline-none" type="text" placeholder="+91 445454454"/>
+                <input className="w-64 border-b-2 border-gray-300 focus:outline-none" type="text" placeholder="+91 445454454"/>
               </div>
               <div className="flex flex-col my-2.5">
                 <label className="mb-[5px] text-sm">Email</label>
-                <input className="w-64 border-b-2 focus:outline-none" type="email" placeholder="banner@gmail.com"/>
+                <input className="w-64 border-b-2 border-gray-300 focus:outline-none" type="email" placeholder="banner@gmail.com"/>
               </div>
               <div className="flex flex-col my-2.5">
                 <label className="mb-[5px] text-sm">Location</label>
-                <input className="w-64 border-b-2 focus:outline-none" type="text" placeholder="New York"/>
+                <input className="w-64 border-b-2 border-gray-300 focus:outline-none" type="text" placeholder="New York"/>
               </div>
             </div>
 

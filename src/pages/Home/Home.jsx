@@ -8,7 +8,9 @@ const Home = () => {
   return (
     <>
       <FeatureInfo />
-      <Chart title="User Analytics" data={userData} grid={true} />
+      <div className="global_shadow m-5 p-5">
+        <Chart title="User Analytics" data={userData} grid={true} />
+      </div>
       <div className="widgets flex m-5">
         <WidgetSm />
         <WidgetLg />

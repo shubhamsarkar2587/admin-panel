@@ -4,7 +4,7 @@ import { AttachMoney, BarChart, ChatBubbleOutline, DynamicFeed, LineStyle, MailO
 
 const Sidebar = () => {
   return (
-    <div className="sidebar fixed w-1/4 xl:w-1/5 bg-slate-50 overflow-y-auto">
+    <div className="sidebar fixed w-1/4 xl:w-1/5 bg-[#fafafa] overflow-y-auto">
       <div className="p-5 text-[#555]">
 
         <div className="mb-2.5">

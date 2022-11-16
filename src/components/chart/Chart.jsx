@@ -1,4 +1,3 @@
-import "./chart.css"
 import {
   LineChart,
   Line,
@@ -10,8 +9,8 @@ import {
 
 const Chart = ({ title, data, dataKey, grid }) => {
   return (
-    <div className="chart m-5 p-5">
-      <h3>{title || "Analytics"}</h3>
+    <div className="">
+      <h3 className="mb-2.5 font-semibold text-xl">{title || "Analytics"}</h3>
       <ResponsiveContainer width="100%" aspect={4/1}>
         <LineChart data={data}>
           <XAxis dataKey="month" stroke="#5550bd" />

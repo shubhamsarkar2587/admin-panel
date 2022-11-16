@@ -15,20 +15,20 @@ const NewUser = () => {
             <input className="new_user_input focus:outline-none p-1" type="text"/>
           </div>
           <div className="w-[400px] flex flex-col my-2.5 mr-10">
-            <label className="mb-2.5 text-sm font-semibold text-gray-500" type="email">Email</label>
-            <input className="new_user_input focus:outline-none p-1" />
+            <label className="mb-2.5 text-sm font-semibold text-gray-500">Email</label>
+            <input className="new_user_input focus:outline-none p-1" type="email" />
           </div>
           <div className="w-[400px] flex flex-col my-2.5 mr-10">
-            <label className="mb-2.5 text-sm font-semibold text-gray-500" type="password">Password</label>
-            <input className="new_user_input focus:outline-none p-1" />
+            <label className="mb-2.5 text-sm font-semibold text-gray-500">Password</label>
+            <input className="new_user_input focus:outline-none p-1" type="password"/>
           </div>
           <div className="w-[400px] flex flex-col my-2.5 mr-10">
-            <label className="mb-2.5 text-sm font-semibold text-gray-500" type="text">Phone no</label>
-            <input className="new_user_input focus:outline-none p-1" />
+            <label className="mb-2.5 text-sm font-semibold text-gray-500">Phone no</label>
+            <input className="new_user_input focus:outline-none p-1" type="text" />
           </div>
           <div className="w-[400px] flex flex-col my-2.5 mr-10">
-            <label className="mb-2.5 text-sm font-semibold text-gray-500" type="text">Address</label>
-            <input className="new_user_input focus:outline-none p-1" />
+            <label className="mb-2.5 text-sm font-semibold text-gray-500">Address</label>
+            <input className="new_user_input focus:outline-none p-1" type="text"/>
           </div>
         </form>
       </div>

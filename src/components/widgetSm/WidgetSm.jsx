@@ -4,7 +4,7 @@ import { Visibility } from "@mui/icons-material";
 
 const WidgetSm = () => {
   return (
-    <div className="widget_sm p-5 w-full overflow-x-auto mr-5">
+    <div className="widget_sm global_shadow p-5 w-full overflow-x-auto mr-5">
       <span className="font-semibold text-xl">New Join Members</span>
       <ul>
         <li className="flex items-center justify-between my-5">
