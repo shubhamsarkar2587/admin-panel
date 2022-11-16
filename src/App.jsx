@@ -2,6 +2,9 @@ import { Routes, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar/Sidebar"
 import Topbar from "./components/topbar/Topbar"
 import Home from "./pages/home/Home";
+import NewUser from "./pages/newUser/NewUser";
+import Products from "./pages/products/Products";
+import User from "./pages/user/User";
 import UserList from "./pages/userLIst/UserList";
 
 const App = () => {
@@ -16,6 +19,9 @@ const App = () => {
           <Routes>
             <Route path="/" element={<Home />}></Route>
             <Route path="/users" element={<UserList />}></Route>
+            <Route path="/user/:userId" element={<User />}></Route>
+            <Route path="/new-user" element={<NewUser />}></Route>
+            <Route path="/products" element={<Products />}></Route>
           </Routes>
         </div>
       </div>

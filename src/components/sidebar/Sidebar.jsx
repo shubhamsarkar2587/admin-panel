@@ -16,11 +16,11 @@ const Sidebar = () => {
                 Home
               </li>
             </Link>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg  flex items-center">
               <Timeline className="mr-[5px]" />
               Analytics
             </li>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg  flex items-center">
               <TrendingUp className="mr-[5px]" />
               Sales
             </li>
@@ -36,17 +36,17 @@ const Sidebar = () => {
                 Users
               </li>
             </Link>
-            {/* <Link to="/products" className="link"> */}
+            <Link to="/products" className="link">
               <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
                 <Storefront className="mr-[5px]" />
                 Products
               </li>
-            {/* </Link> */}
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            </Link>
+            <li className="p-[5px] rounded-lg flex items-center">
               <AttachMoney className="mr-[5px]" />
               Transactions
             </li>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <BarChart className="mr-[5px]" />
               Reports
             </li>
@@ -56,15 +56,15 @@ const Sidebar = () => {
         <div className="mb-2.5">
           <h3 className="text-base text-slate-500 font-semibold">Notifications</h3>
           <ul className="p-[5px]">
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <MailOutline className="mr-[5px]" />
               Mail
             </li>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <DynamicFeed className="mr-[5px]" />
               Feedback
             </li>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <ChatBubbleOutline className="mr-[5px]" />
               Messages
             </li>
@@ -74,15 +74,15 @@ const Sidebar = () => {
         <div className="mb-2.5">
           <h3 className="text-base text-slate-500 font-semibold">Staff</h3>
           <ul className="p-[5px]">
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <WorkOutline className="mr-[5px]" />
               Manage
             </li>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <Timeline className="mr-[5px]" />
               Analytics
             </li>
-            <li className="p-[5px] rounded-lg hover:bg-slate-100 flex items-center cursor-pointer">
+            <li className="p-[5px] rounded-lg flex items-center">
               <Report className="mr-[5px]" />
               Reports
             </li>
