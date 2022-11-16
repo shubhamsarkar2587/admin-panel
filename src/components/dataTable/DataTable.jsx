@@ -11,6 +11,7 @@ const Table = ({ columns, rows, pageSize}) => {
         rowsPerPageOptions={[5]}
         checkboxSelection
         disableSelectionOnClick
+        disableUnderline
       />
     </div>
   )
