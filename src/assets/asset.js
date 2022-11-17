@@ -1,17 +1,17 @@
-import avatarLogin from "./svg/avatar.svg";
+import avatarLogin from './svg/avatar.svg';
 
-import userImage from "./png/user_image.png"
-import userImage2 from "./png/user_image2.jpg"
-import appleImage from "./png/apple_image.png"
+import userImage from './png/user_image.png';
+import userImage2 from './png/user_image2.jpg';
+import appleImage from './png/apple_image.png';
 
 // all svg imports
 export const svgAssets = {
-    avatarLogin
-}
+	avatarLogin
+};
 
 // all png imports
 export const pngAssets = {
-    userImage,
-    userImage2,
-    appleImage
-}
+	userImage,
+	userImage2,
+	appleImage
+};
