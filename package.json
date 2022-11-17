@@ -9,12 +9,11 @@
     "eject": "react-scripts eject",
     "eslint": "eslint src --ext .js,.jsx,.ts,.tsx",
     "eslintFix": "eslint src --ext .js,.jsx,.ts,.tsx --fix",
-    "prepare": "lint-staged"
+    "husky": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "lint-staged": {
