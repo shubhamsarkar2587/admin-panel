@@ -8,7 +8,7 @@ const Topbar = () => {
 			<div className="h-full px-5 flex items-center justify-between">
 				<div className="leftSide">
 					<Link to="/">
-						<span className="font-bold text-3xl text-blue-800 cursor-pointer">Panel</span>
+						<span className="font-bold text-3xl text-blue-800 cursor-pointer">Admin Panel</span>
 					</Link>
 				</div>
 				<div className="rightSide flex items-center justify-center">
